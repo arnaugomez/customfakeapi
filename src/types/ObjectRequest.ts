@@ -1,0 +1,1 @@
+export type ObjectRequest = Record<string, unknown>;

@@ -10,9 +10,7 @@ export function stringResolver(r: string, index?: number) {
     try {
       // @ts-ignore
       return faker[nsMatches[0]][fnMatches[0].substring(1)]();
-    } catch (e) {
-      console.error(e);
-    }
+    } catch (e) {}
   }
 
   return r;

@@ -29,6 +29,7 @@
     "@faker-js/faker": "^7.6.0",
     "@fastify/middie": "^8.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "fastify": "^4.11.0"
   }
 }
